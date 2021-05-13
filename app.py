@@ -10,6 +10,7 @@ import itertools
 import os
 import functions
 
+os.chdir('../Data')
 #Reading the Datas of Foods
 breakfast = pd.read_excel("Data/breakfast.xlsx")
 lunch = pd.read_excel("Data/lunch.xlsx")

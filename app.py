@@ -10,11 +10,11 @@ import itertools
 import os
 import functions
 
-os.chdir('../Data')
+
 #Reading the Datas of Foods
 breakfast = pd.read_excel("breakfast.xlsx")
-lunch = pd.read_excel("Data/lunch.xlsx")
-dinner = pd.read_excel("Data/dinner.xlsx")
+lunch = pd.read_excel("lunch.xlsx")
+dinner = pd.read_excel("dinner.xlsx")
 
 #Applying the function on the necessary columns of the "Breakfast" dataframe
 breakfast['Carbs'] = breakfast['Carbs'].apply(lambda x: functions.find_number(x))

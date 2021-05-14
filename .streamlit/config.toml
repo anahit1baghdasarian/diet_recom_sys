@@ -1,9 +1,10 @@
 [theme]
-primaryColor="#7adc1b"
-backgroundColor="#f0f2f6"
-secondaryBackgroundColor="#ccf1a4"
-textColor="#353641"
-font="serif"
+primaryColor = "#575fe8"
+backgroundColor = "#f5f7f3"
+secondaryBackgroundColor = "#c9eab8"
+textColor = "#262730"
+font = "sans serif"
+
 
 
 

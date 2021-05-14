@@ -55,7 +55,7 @@ navigation = st.sidebar.radio('🥗 NAVIGATION', ('Home 🏠', "Diet Sample Reco
 
 if navigation == "Home 🏠":
     ("""# Welcome To Diet Recommendation System ! 🍏""")
-    video_file = open("vid/video1.mp4", "rb")
+    video_file = open("vid/video3.mp4", "rb")
     video_bytes = video_file.read()
     st.video(video_bytes)
     ("""## Play for Good Mood  🎶🎵 """)
